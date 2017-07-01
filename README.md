@@ -10,6 +10,31 @@ To use the code it is enough to call the function with the line:
 
 where the k and n are desired values of number of epochs and the batch size.
 
+Example of an output:
+```
+(evaluation) acc: 74.74%
+
+train accuracy: 76.07% 
+train loss: 7.64%
+
+test accuracy: 72.05% 
+test loss: 9.34%
+
+Difference between accuracy and loss:
+for train: 68.43%
+for test: 62.71%
+
+Ratio: 1.09
+
+Model has been saved
+```
+
 ### LOAD_MODEL.py
 
 Code shows the example of how we can use the obtained model for a new list of data and show the accuracy of the prediction.
+
+Example of an output:
+
+`
+acc: 74.22%
+`
