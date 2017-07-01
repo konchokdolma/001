@@ -5,7 +5,7 @@ import numpy as np
 
 def mod(data, epochs, batch):
     
-    dataset = np.loadtxt(data, delimiter=",") #the last column of the text file should be the output
+    dataset = np.loadtxt(data, delimiter=",") #the last column of the file should be the output
     
     a = dataset.shape[1] - 1
 
