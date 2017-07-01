@@ -31,7 +31,7 @@ Model has been saved
 
 ### load_model.py
 
-Code shows the example of how we can use the obtained model for a new list of data and show the accuracy of the prediction.
+Code shows the example of how we can use the obtained model for a new list of data and outputs the accuracy of the prediction.
 
 Example of an output:
 
