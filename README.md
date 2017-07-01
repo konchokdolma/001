@@ -1,6 +1,6 @@
 ## 001
 
-### KERAS_MODEL.py
+### keras_model.py
 
 Code takes the list of data with the last column containing the output(0 or 1), trains it and shows the accuracy and loss for both training and test modes. Also it saves the model and the weights we've obtained which will be used in the next code.
 
@@ -29,7 +29,7 @@ Ratio: 1.09
 Model has been saved
 ```
 
-### LOAD_MODEL.py
+### load_model.py
 
 Code shows the example of how we can use the obtained model for a new list of data and show the accuracy of the prediction.
 
