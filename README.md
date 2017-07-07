@@ -52,7 +52,7 @@ To call the function firstly we drop rows with nan values and then convert all d
 
 Example of an output:
 
-`
+```
 640/712 [=========================>....] - ETA: 0s
 acc: 83.15%
 loss: 5.61%
@@ -62,4 +62,4 @@ train loss: 5.84%
 
 test accuracy: 86.02% 
 test loss: 5.14%
-`
+```
