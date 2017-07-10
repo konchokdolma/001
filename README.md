@@ -53,13 +53,13 @@ To call the function firstly we drop rows with nan values and then convert all d
 Example of an output:
 
 ```
-640/712 [=========================>....] - ETA: 0s
+32/712 [>.............................] - ETA: 0s
 acc: 83.15%
-loss: 5.61%
+loss: 5.38%
 
-train accuracy: 81.72% 
-train loss: 5.84%
+train accuracy: 83.19% 
+train loss: 5.24%
 
-test accuracy: 86.02% 
-test loss: 5.14%
+test accuracy: 83.05% 
+test loss: 5.66%
 ```
