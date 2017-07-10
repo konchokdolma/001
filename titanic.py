@@ -46,14 +46,14 @@ df.Cabin = data[:,8]
 def train(data, epochs, batch):
     
     a = data.shape[1]-1
-    dataY = data[:,1] #output
-    dataX = data[:,2:a] #input
-    
-    dataX = np.reshape(dataX, (len(dataX), 1, dataX.shape[1]))
+    dataY = data[:,1]
+    dataX = data[:,2:a]
     
     model = Sequential()
-    model.add(LSTM(360, return_sequences=True, input_shape = (1, dataX.shape[2])))
-    model.add(LSTM(180))
+    model.add(Dense(30, input_dim = dataX.shape[1], activation='elu'))
+    model.add(Dense(20, activation='elu'))
+    model.add(Dense(10, activation='elu'))
+    model.add(Dense(5, activation='elu'))
     model.add(Dense(1, activation='sigmoid'))
     
     model.compile(loss='logcosh', optimizer='adam', metrics=['accuracy'])
@@ -65,7 +65,6 @@ def train(data, epochs, batch):
     b = int(round(.67 * dataX.shape[0] - 1 , 0))
     
     C = data[0:b,2:a]
-    C = np.reshape(C, (len(C), 1, C.shape[1]))
     D = dataY[0:b]
     
     scores2 = model.evaluate(C, D, verbose = 0)
@@ -74,7 +73,6 @@ def train(data, epochs, batch):
     #the rest 33% - test loss and acc
     
     E = data[b:,2:a]
-    E = np.reshape(E, (len(E), 1, E.shape[1]))
     F = dataY[b:]
     
     scores3 = model.evaluate(E, F, verbose = 0)
@@ -85,4 +83,4 @@ df = df.dropna()
 data = np.array(df)
 data = data.astype(int)
 
-train(data, 30, 10)
+train(data, 270, 27)
