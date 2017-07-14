@@ -38,28 +38,3 @@ Example of an output:
 `
 acc: 74.22%
 `
-### titanic.py
-
-In this example we take data from the kaggle competition: https://www.kaggle.com/c/titanic
-In the train file we are given the information about passengers in the Titanic. For the input we have their name, age, gender, ticket class, siblings/spouses and parents/children aboard, ticket number, fare, cabin number and port of embarkation.
-As an output we have if person survived or not.
-
-First of all code writes the list of data into DataFrame and drops columns with names and ticket numbers. Then in converts columns with strings to integers, i.e. in the column with genders 'male' is '0' and 'female' is '1'.
-
-In the 'train' function we train our model for prediction. We fit the model and then evaluate it for the full data, and then separatly for train and test.
-
-To call the function firstly we drop rows with nan values and then convert all data into integer.
-
-Example of an output:
-
-```
-32/712 [>.............................] - ETA: 0s
-acc: 83.15%
-loss: 5.38%
-
-train accuracy: 83.19% 
-train loss: 5.24%
-
-test accuracy: 83.05% 
-test loss: 5.66%
-```
