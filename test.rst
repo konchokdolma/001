@@ -175,14 +175,14 @@ Long Funnel shape can be applied by defining shape as 'long_funnel'. First half 
 
 
 
-+          +
-|          |
-|          |
-|          |
- \        /
-  \      /
-   \    /
-    |  |
+.. +          +
+.. |          |
+.. |          |
+.. |          |
+..  \        /
+..   \      /
+..    \    /
+..     |  |
 
 
 Rhombus
@@ -190,16 +190,16 @@ Rhombus
 
 Rhobmus can be called by definind shape as 'rhombus'. The first layer equals to 1 and the next layers slightly increase till the middle one which equals to the value of neuron_max. Next layers are the previous ones goin in the reversed order.
 
-    +   +
-    /   \
-   /     \
-  /       \
- /         \
- \         /
-  \       /
-   \     /
-    \   /
-    |   |
+..     +   +
+..     /   \
+..    /     \
+..   /       \
+..  /         \
+..  \         /
+..   \       /
+..    \     /
+..    \   /
+..    |   |
 
 
 Diamond
@@ -207,14 +207,14 @@ Diamond
 
 Defining shape as 'diamond' we will obtain the shape of the 'opened rhombus', where everything is similar to the Rhombus shape, but layers start from the larger number instead of 1.
 
-   +     + 
-  /       \
- /         \
- \         /   
-  \       /
-   \     /
-    \   /
-    |   |
+..    +     + 
+..   /       \
+..  /         \
+..  \         /   
+..   \       /
+..    \     /
+..     \   /
+..    |   |
 
 
 Hexagon
