@@ -237,13 +237,13 @@ Brick
 All the layers have neuron_max value. Called by shape='brick'. ::
 
 
-+          +
-|          |
-|          |
-|          |
-|          |
- --      --
-   |    |
++           +
+|           |
+|           |
+|           |
+|           |
+ --       --
+   |     |
 
 
 Triangle
@@ -266,9 +266,9 @@ Stairs
 
 You can apply it defining shape as 'stairs'. If number of layers more than four, then each two layers will have the same value, then it decreases.If the number of layers is smaller than four, then the value decreases every single layer. ::
 
-+                    +
-|                     |
- ---               ---
-    |            |
-     ---      ---
-        |    |
++                      +
+|                      |
+ ---                ---
+    |             |
+     ---       ---
+        |     |
