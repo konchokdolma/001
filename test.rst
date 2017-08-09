@@ -155,72 +155,68 @@ SHAPES
 Funnel
 
 
-Funnel is the shape, which is set by default. It roughly looks like an upside-dowm pyramind, so that the first layer is defined as neuron_max, and the next layers are sligtly decreased compared to previous ones.
+Funnel is the shape, which is set by default. It roughly looks like an upside-dowm pyramind, so that the first layer is defined as neuron_max, and the next layers are sligtly decreased compared to previous ones.::
 
 
-.. |            |
-..  \          /
-..   \        /
-..    \      /
-..     \    /
-..      |  |
+  \          /
+   \        /
+    \      /
+     \    /
+      |  |
 
 
 
 Long Funnel
 
 
-Long Funnel shape can be applied by defining shape as 'long_funnel'. First half of the layers have the value of neuron_max, and then they have the shape similar to Funnel shape - decreasing to the last layer.
+Long Funnel shape can be applied by defining shape as 'long_funnel'. First half of the layers have the value of neuron_max, and then they have the shape similar to Funnel shape - decreasing to the last layer.::
 
 
-
-
-.. +          +
-.. |          |
-.. |          |
-.. |          |
-..  \        /
-..   \      /
-..    \    /
-..     |  |
+ |          |
+ |          |
+ |          |
+  \        /
+   \      /
+    \    /
+     |  |
 
 
 Rhombus
 
 
-Rhobmus can be called by definind shape as 'rhombus'. The first layer equals to 1 and the next layers slightly increase till the middle one which equals to the value of neuron_max. Next layers are the previous ones goin in the reversed order.
+Rhobmus can be called by definind shape as 'rhombus'. The first layer equals to 1 and the next layers slightly increase till the middle one which equals to the value of neuron_max. Next layers are the previous ones goin in the reversed order.::
 
-..     +   +
-..     /   \
-..    /     \
-..   /       \
-..  /         \
-..  \         /
-..   \       /
-..    \     /
-..    \   /
-..    |   |
+     +   +
+     /   \
+    /     \
+   /       \
+  /         \
+  \         /
+   \       /
+    \     /
+     \   /
+     |   |
 
 
 Diamond
 
 
-Defining shape as 'diamond' we will obtain the shape of the 'opened rhombus', where everything is similar to the Rhombus shape, but layers start from the larger number instead of 1.
+Defining shape as 'diamond' we will obtain the shape of the 'opened rhombus', where everything is similar to the Rhombus shape, but layers start from the larger number instead of 1. ::
 
-..    +     + 
-..   /       \
-..  /         \
-..  \         /   
-..   \       /
-..    \     /
-..     \   /
-..    |   |
+    +     + 
+   /       \
+  /         \
+  \         /   
+   \       /
+    \     /
+     \   /
+     |   |
 
 
 Hexagon
 
 
-Hexagon, which we get by calling 'hexagon' for shape, starts with 1 as the first layer and increases till the neuron_max value. Then some next layers will have maximum value untill it starts to decrease till the last layer.
+Hexagon, which we get by calling 'hexagon' for shape, starts with 1 as the first layer and increases till the neuron_max value. Then some next layers will have maximum value untill it starts to decrease till the last layer. ::
 
      +  +
     /    \
@@ -234,10 +230,11 @@ Hexagon, which we get by calling 'hexagon' for shape, starts with 1 as the first
     \    /
      |  |
 
+
 Brick
 
 
-All the layers have neuron_max value. Called by shape='brick'.
+All the layers have neuron_max value. Called by shape='brick'. ::
 
 
 +         +
@@ -248,10 +245,11 @@ All the layers have neuron_max value. Called by shape='brick'.
  --     --
    |   |
 
+
 Triangle
 
 
-This shape, which is called by defining shape as 'triangle' starts with 1 and increases till the last input layer, which is neuron_max.
+This shape, which is called by defining shape as 'triangle' starts with 1 and increases till the last input layer, which is neuron_max. ::
 
 
          + +
@@ -266,7 +264,7 @@ This shape, which is called by defining shape as 'triangle' starts with 1 and in
 Stairs
 
 
-You can apply it defining shape as 'stairs'. If number of layers more than four, then each two layers will have the same value, then it decreases.If the number of layers is smaller than four, then the value decreases every single layer.
+You can apply it defining shape as 'stairs'. If number of layers more than four, then each two layers will have the same value, then it decreases.If the number of layers is smaller than four, then the value decreases every single layer. ::
 
 +                    +
 |                    |
