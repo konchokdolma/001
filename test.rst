@@ -157,18 +157,22 @@ Funnel
 
 Funnel is the shape, which is set by default. It roughly looks like an upside-dowm pyramind, so that the first layer is defined as neuron_max, and the next layers are sligtly decreased compared to previous ones.
 
-+            +
- \          /
-  \        /
-   \      /
-    \    /
-     |  |
+
+.. |            |
+..  \          /       
+..   \        /        
+..    \      /         
+..     \    /          
+..      |  |           
+
 
 
 Long Funnel
 
 
 Long Funnel shape can be applied by defining shape as 'long_funnel'. First half of the layers have the value of neuron_max, and then they have the shape similar to Funnel shape - decreasing to the last layer.
+
+
 
 
 +          +
