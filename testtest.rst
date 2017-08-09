@@ -6,6 +6,7 @@ Some text
 ..    \      /         
 ..     \    /          
 ..      |  |
-
+..
+..
 
 Some text
