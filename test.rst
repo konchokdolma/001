@@ -159,11 +159,11 @@ Funnel is the shape, which is set by default. It roughly looks like an upside-do
 
 
 .. |            |
-..  \          /       
-..   \        /        
-..    \      /         
-..     \    /          
-..      |  |           
+..  \          /
+..   \        /
+..    \      /
+..     \    /
+..      |  |
 
 
 
