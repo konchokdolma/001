@@ -241,8 +241,8 @@ All the layers have neuron_max value. Called by shape='brick'. ::
 |          |
 |          |
 |          |
- --      --
-   |    |
+ ---    ---
+    |   |
 
 
 Triangle
